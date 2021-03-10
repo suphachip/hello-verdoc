@@ -1,6 +1,6 @@
 {
-  "name": "hello-verdoc",
-  "version": "1.0.0",
+  "name": "hello-verdoc-image",
+  "version": "1.0.1",
   "description": "",
   "main": "src/index.js",
   "scripts": {
@@ -10,11 +10,18 @@
     "type": "git",
     "url": "git+https://github.com/suphachip/hello-verdoc.git"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "keywords": [
+      "npm",
+      "hello"
+  ],
+  "author": "my verdoc",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/suphachip/hello-verdoc/issues"
   },
-  "homepage": "https://github.com/suphachip/hello-verdoc#readme"
+  "homepage": "https://github.com/suphachip/hello-verdoc#readme",
+  "publishConfig": {
+    "access": "public",
+    "registry":"https://registry.npmjs.org"
+  }
 }
