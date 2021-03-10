@@ -1,0 +1,24 @@
+{
+    "name": "hello-verdoc", 
+    "version": "1.0", 
+    "description": "Hello verdoc to publish a node package to npmjs.com", 
+    "main": "src/hello-verdoc.js", 
+    "scripts": { 
+    },
+    "repository": { 
+      "type": "git",
+      "url": "git@github.com:suphachip/hello-verdoc.git"
+    },
+    "keywords": [
+      "npm",
+      "Hello verdoc"
+    ],
+    "author": "verdoc",
+    "license": "verdoc", 
+    "bugs": { 
+      "url": "https://github.com/beforesecond/hello-verdoc/issuess"
+    },
+    "homepage": "https://github.com/beforesecond/hello-verdoc/blob/master/README.md", 
+    "devDependencies": { 
+    }
+  } 
